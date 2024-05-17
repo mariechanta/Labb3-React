@@ -1,3 +1,4 @@
+// pages/index.js
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -38,8 +39,8 @@ const MainPage = () => {
     <div>
       <Header />
       <Navbar />
-      <TeacherList />
-      <StudentList />
+      <TeacherList teachers={teachers} />
+      <StudentList students={students} />
       <Classroom classroom={classroom} />
       <Assignment assignment={assignment} />
       <Calendar events={events} />
@@ -48,4 +49,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage
+export default MainPage;
