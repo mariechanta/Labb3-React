@@ -1,4 +1,4 @@
-// components/TeacherProfile.js
+
 import React from 'react';
 
 const TeacherProfile = ({ teacher }) => {

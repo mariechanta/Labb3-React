@@ -1,11 +1,12 @@
 import React from 'react';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
-import Navbar from '../Components/Navbar';
-import StudentList from '../Components/StudentList';
-import Classroom from '../Components/Classroom';
-import Assignment from '../Components/Assignment';
-import Calendar from '../Components/Calendar';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import TeacherList from '../components/TeacherList';
+import StudentList from '../components/StudentList';
+import Classroom from '../components/Classroom';
+import Assignment from '../components/Assignment';
+import Calendar from '../components/Calendar';
 
 const MainPage = () => {
   const teachers = [
@@ -47,4 +48,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default MainPage

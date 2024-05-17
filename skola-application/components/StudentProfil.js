@@ -1,4 +1,4 @@
-// components/StudentProfile.js
+
 import React from 'react';
 
 const StudentProfile = ({ student }) => {

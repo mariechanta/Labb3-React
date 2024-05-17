@@ -1,4 +1,4 @@
-// components/Classroom.js
+
 import React from 'react';
 
 const Classroom = ({ classroom }) => {
