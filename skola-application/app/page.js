@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
-import TeacherList from '../Components/TeacherList';
 import StudentList from '../Components/StudentList';
 import Classroom from '../Components/Classroom';
 import Assignment from '../Components/Assignment';
@@ -47,15 +46,5 @@ const MainPage = () => {
     </div>
   );
 };
-const Page = () => {
-    useClient(); // Använd useClient här för att markera page.js som en klientkomponent
-
-    return (
-      <div>
-        <h1>Skola Collaboration</h1>
-        <TeacherList />
-      </div>
-    );
-  };
 
 export default MainPage;
