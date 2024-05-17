@@ -47,5 +47,15 @@ const MainPage = () => {
     </div>
   );
 };
+const Page = () => {
+    useClient(); // Använd useClient här för att markera page.js som en klientkomponent
+
+    return (
+      <div>
+        <h1>Skola Collaboration</h1>
+        <TeacherList />
+      </div>
+    );
+  };
 
 export default MainPage;
