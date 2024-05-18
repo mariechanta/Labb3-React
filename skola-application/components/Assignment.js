@@ -1,4 +1,4 @@
-// components/Assignment.js
+// components/Assignment
 import React from 'react';
 
 const Assignment = ({ assignment }) => {

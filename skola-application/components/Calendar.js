@@ -1,4 +1,4 @@
-// components/Calendar.js
+// components/Calendar
 import React from 'react';
 
 const Calendar = ({ events }) => {
