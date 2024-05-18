@@ -1,15 +1,11 @@
-// components/StudentList.tsx
+// components/StudentList.js
 import React, { useEffect, useState } from 'react';
 
-interface Student {
-  id: number;
-  name: string;
-}
-
-const StudentList: React.FC = () => {
-  const [students, setStudents] = useState<Student[]>([]);
+const StudentList = () => {
+  const [students, setStudents] = useState([]);
 
   useEffect(() => {
+    // Hämta data från extern sida, t.ex. en REST API eller GraphQL
     fetch('https://api.example.com/students')
       .then(response => response.json())
       .then(data => setStudents(data));
